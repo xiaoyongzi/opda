@@ -1,0 +1,139 @@
+.ms2side__div {
+	clear: left;
+	width: 100%;
+	padding: 1px;
+	float: left;
+	background : url('') repeat-x; /* HACK FOR CHROME */
+}
+
+.ms2side__select {
+	float: left;
+	width:45%;
+}
+
+.ms2side__header {
+	color: #4d4d4d;
+	font-size: 0.875em;
+	background-color: #f2f2f2;
+	border-color: #cccccc;
+	border-bottom: none;
+	width: 100%;
+	height: 20px;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-weight: 500;
+}
+
+.ms2side__options, .ms2side__updown {
+	float: left;
+	font-size: 10pt;
+	margin: 0;
+	padding: 0 8px;
+	width: 10%;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+}
+
+.ms2side__updown {
+	font-size: 9pt;
+}
+
+.ms2side__options p, .ms2side__updown p {
+	margin: 2px 0;
+	padding: 0;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.ms2side__options p.ms2side_hover, .ms2side__updown p.ms2side_hover {
+	background-color: #ec8a22;
+	border-color: #ca7011;
+	cursor: pointer;
+}
+
+.ms2side__options p.ms2side__hide, .ms2side__updown p.ms2side__hide {
+	cursor: default;
+	color: gray;
+	border: 1px solid gray;
+	background-color: #f2f2f2;
+}
+
+.ms2side__div select {
+	width: 100%;
+	float: left;
+	outline: none;
+	background-color: white;
+  font-family: inherit;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 0.875em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear; 
+}
+
+.ms2side__div select :focus {	
+	background: #fafafa;
+    border-color: #999999;
+    outline: none; 
+}
+
+
+/* INPUT FOR SEARCH */
+.ms2side__header input {
+	width: 50%;
+	height: 20px;
+	margin: 0 0 0 0;
+	display: inline-block;
+}
+
+.ms2side__header input.wait {
+	width: 50%;
+	height: 20px;
+	background: #FFFFFF url(../img/loading.gif) no-repeat center right;
+}
+
+.ms2side__header input.small {
+	width: 50%;
+	height: 20px;
+}
+
+
+/* INPUT FOR SELECT SEARCH */
+.ms2side__header select {
+	width: 50%px;
+	font-size: 11px;
+	height: 20px;
+	float: none;
+}
+
+.ms2side__header select.small {
+	width: 50%px;
+}
+
+
+/* REMOVE FILTER OPTION FOR SEARCH */
+.ms2side__header a {
+	font-size: 10pt;
+	padding: 0 8px;
+	width: 16px;
+	height: 16px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid gray;
+	background: #FFFFFF url(../img/close.gif) no-repeat center center;
+	margin: 0 0 0 3px;
+}
+
+.ms2side__header a:hover {
+	background-color: #F0F0FF;
+	border-color: gray;
+}
